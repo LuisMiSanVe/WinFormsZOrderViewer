@@ -46,7 +46,7 @@
         <Parent guid="guidSHLMainMenu" id="IDG_VS_EDIT_OLEVERBS"/>
         <Icon guid="guidImages" id="bmpPic1" />
         <Strings>
-          <ButtonText>ZOrderToolWindow</ButtonText>
+          <ButtonText>View Z-Order</ButtonText>
         </Strings>
       </Button>
     </Buttons>
