@@ -1,10 +1,11 @@
 > [See in spanish/Ver en español](https://github.com/LuisMiSanVe/WinFormsZOrderViewer/blob/main/README.es.md)
-# <img src="https://github.com/LuisMiSanVe/LuisMiSanVe/blob/main/Resources/ShopManager/image.png" width="50" alt="Logo"> WinForms Z-Order Viewer
+
+<img src="https://github.com/LuisMiSanVe/LuisMiSanVe/blob/main/Resources/WinFormsZOrderViewer/banner.png" style="width: 100%; height: auto;" alt="Banner">
+
+# <img src="https://github.com/LuisMiSanVe/WinFormsZOrderViewer/blob/main/WinFormsZOrderViewer/Resources/ZOrderToolWindowCommand.png" width="50" alt="Logo"> WinForms Z-Order Viewer
 [![image](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)](https://dotnet.microsoft.com/en-us/languages/csharp)
 [![image](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet)
 [![image](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)](https://visualstudio.microsoft.com/)
-
-<img src="https://github.com/LuisMiSanVe/LuisMiSanVe/blob/main/Resources/ShopManager/image.png" width="50" alt="Banner">
 
 Visual Studio Extension that lets you view and modify the Z-Order of WinForms Controls.
 
@@ -14,7 +15,7 @@ Install the extension in the Visual Studio Marketplace or clone this repos to de
 ## 🚀 Project Usage Explanation
 Open a WinForms Project then go to the new option in `Edit > Object > View Z-Order`.
 
-A Window will open displaying the controls of the current WinForms and will let you move their each Z-Order to display them in top ot bellow others.
+A Window will open displaying the controls of the current WinForms and will let you move their each Z-Order to display them in top or bellow others.
 
 ## 🚀 Releases
 The version will be released using these versioning policies:\
