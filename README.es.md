@@ -1,12 +1,13 @@
 > [Ver en ingles/See in english](https://github.com/LuisMiSanVe/WinFormsZOrderViewer/blob/main/README.md)
-# <img src="https://github.com/LuisMiSanVe/LuisMiSanVe/blob/main/Resources/ShopManager/image.png" width="50" alt="Logo"> WinForms Z-Order Viewer
+
+<img src="https://github.com/LuisMiSanVe/LuisMiSanVe/blob/main/Resources/WinFormsZOrderViewer/banner.png" style="width: 100%; height: auto;" alt="Banner">
+
+# <img src="https://github.com/LuisMiSanVe/WinFormsZOrderViewer/blob/main/WinFormsZOrderViewer/Resources/ZOrderToolWindowCommand.png" width="50" alt="Logo"> WinForms Z-Order Viewer
 [![image](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)](https://dotnet.microsoft.com/en-us/languages/csharp)
 [![image](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet)
 [![image](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)](https://visualstudio.microsoft.com/)
 
-<img src="https://github.com/LuisMiSanVe/LuisMiSanVe/blob/main/Resources/ShopManager/image.png" width="50" alt="Banner">
-
-Extension de Visual Studio que te deja ver y modificar el Z-Order (orden del axis Z) de los controles de un WinForms.
+Extension de Visual Studio que te deja ver y modificar el Z-Order (orden del eje Z) de los controles de un WinForms.
 
 ## 🛠️ Instalación
 Instala la extensión desde el Marketplace de Visual Studio o clona este repositorio para depurarlo o crear tu propia versión.
