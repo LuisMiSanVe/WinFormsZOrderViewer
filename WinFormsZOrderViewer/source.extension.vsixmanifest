@@ -7,6 +7,8 @@
         <MoreInfo>https://github.com/LuisMiSanVe/WinFormsZOrderViewer</MoreInfo>
         <GettingStartedGuide>https://github.com/LuisMiSanVe/WinFormsZOrderViewer/blob/main/README.md</GettingStartedGuide>
         <ReleaseNotes>https://github.com/LuisMiSanVe/WinFormsZOrderViewer/releases</ReleaseNotes>
+        <Icon>logo.png</Icon>
+        <PreviewImage>logo.png</PreviewImage>
         <Tags>visual-studio, extension, csharp, winforms, z-order</Tags>
     </Metadata>
     <Installation>
