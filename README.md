@@ -1,7 +1,5 @@
 > [See in spanish/Ver en español](https://github.com/LuisMiSanVe/WinFormsZOrderViewer/blob/main/README.es.md)
 
-<img src="https://github.com/LuisMiSanVe/LuisMiSanVe/blob/main/Resources/WinFormsZOrderViewer/banner.png" style="width: 100%; height: auto;" alt="Banner">
-
 # <img src="https://github.com/LuisMiSanVe/WinFormsZOrderViewer/blob/main/WinFormsZOrderViewer/logo.png" width="50" alt="Logo"> WinForms Z-Order Viewer
 [![image](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)](https://dotnet.microsoft.com/en-us/languages/csharp)
 [![image](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet)
