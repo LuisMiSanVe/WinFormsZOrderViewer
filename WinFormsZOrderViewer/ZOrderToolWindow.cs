@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Runtime.InteropServices;
+using System.Security.Cryptography;
 using System.Threading;
 using System.Windows.Forms;
+using EnvDTE;
+using EnvDTE80;
 using Microsoft.VisualStudio.Shell;
 using Task = System.Threading.Tasks.Task;
 

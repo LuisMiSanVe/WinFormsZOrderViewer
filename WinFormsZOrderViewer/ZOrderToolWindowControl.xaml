@@ -10,9 +10,38 @@
              d:DesignHeight="300" d:DesignWidth="300"
              Name="MyToolWindow">
     <Grid>
-        <StackPanel Orientation="Vertical">
-            <TextBlock Margin="10" HorizontalAlignment="Center">ZOrderToolWindow</TextBlock>
-            <Button Content="Click me!" Click="button1_Click" Width="120" Height="80" Name="button1"/>
-        </StackPanel>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Row for ComboBox -->
+            <RowDefinition Height="*"/>
+            <!-- Row for ListView and Buttons -->
+        </Grid.RowDefinitions>
+
+        <!-- ComboBox at the Top -->
+        <ComboBox x:Name="FormsComboBox" Grid.Row="0" Margin="10" Width="200" SelectionChanged="FormsComboBox_SelectionChanged"></ComboBox>
+
+        <!-- Main Content Grid -->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+            <!-- ListView -->
+            <ListView x:Name="ControlListView" Grid.Column="0" Margin="10">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Controls" DisplayMemberBinding="{Binding Name}" Width="200"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+
+            <!-- Buttons Panel -->
+            <StackPanel Grid.Column="1" VerticalAlignment="Center" Margin="10">
+                <Button x:Name="UpButton" Click="UpButton_Click" Content="Up" Width="75" Margin="5"/>
+                <Button x:Name="DownButton" Click="DownButton_Click" Content="Down" Width="75" Margin="5"/>
+            </StackPanel>
+        </Grid>
     </Grid>
+
 </UserControl>

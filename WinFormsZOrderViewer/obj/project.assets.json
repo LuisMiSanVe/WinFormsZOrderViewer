@@ -13264,11 +13264,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lm.Sanchez\\source\\repos\\WinFormsZOrderViewer\\WinFormsZOrderViewer.csproj",
+      "projectUniqueName": "C:\\Users\\Lm.Sanchez\\Downloads\\WinFormsZOrderViewer\\WinFormsZOrderViewer.csproj",
       "projectName": "WinFormsZOrderViewer",
-      "projectPath": "C:\\Users\\Lm.Sanchez\\source\\repos\\WinFormsZOrderViewer\\WinFormsZOrderViewer.csproj",
+      "projectPath": "C:\\Users\\Lm.Sanchez\\Downloads\\WinFormsZOrderViewer\\WinFormsZOrderViewer.csproj",
       "packagesPath": "C:\\Users\\Lm.Sanchez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lm.Sanchez\\source\\repos\\WinFormsZOrderViewer\\obj\\",
+      "outputPath": "C:\\Users\\Lm.Sanchez\\Downloads\\WinFormsZOrderViewer\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "UsingMicrosoftNETSdk": false,

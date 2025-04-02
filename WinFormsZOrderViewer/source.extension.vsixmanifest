@@ -2,7 +2,7 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
         <Identity Id="WinFormsZOrderViewer.6db38690-8ff6-4ca7-a879-77e1778c2ca1" Version="1.0.0" Language="en-US" Publisher="LuisMiSanVe" />
-        <DisplayName>WinFormsZOrderViewer</DisplayName>
+        <DisplayName>WinForms Z-Order Viewer</DisplayName>
         <Description xml:space="preserve">Visual Studio Extension that lets you view and modify the Z-Order of WinForms Controls.</Description>
         <MoreInfo>https://github.com/LuisMiSanVe/WinFormsZOrderViewer</MoreInfo>
         <GettingStartedGuide>https://github.com/LuisMiSanVe/WinFormsZOrderViewer/blob/main/README.md</GettingStartedGuide>
