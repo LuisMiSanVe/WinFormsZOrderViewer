@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This extension is not finished, so it won't be published for now. A thread on [Stack Overflow]() is open with the problems I'm having during it's development, I'd appreciate it if you could help!
+
 > [See in spanish/Ver en español](https://github.com/LuisMiSanVe/WinFormsZOrderViewer/blob/main/README.es.md)
 
 # <img src="https://github.com/LuisMiSanVe/WinFormsZOrderViewer/blob/main/WinFormsZOrderViewer/logo.png" width="50" alt="Logo"> WinForms Z-Order Viewer
