@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> This extension is not finished, so it won't be published for now. A thread on [Stack Overflow]() is open with the problems I'm having during it's development, I'd appreciate it if you could help!
+> This extension is not finished, so it won't be published for now. A thread on [Stack Overflow](https://stackoverflow.com/questions/79553192/could-not-load-type-system-object-from-assembly-system-private-corelib-beca) is open with the problems I'm having during it's development, I'd appreciate it if you could help!
 
 > [See in spanish/Ver en español](https://github.com/LuisMiSanVe/WinFormsZOrderViewer/blob/main/README.es.md)
 
