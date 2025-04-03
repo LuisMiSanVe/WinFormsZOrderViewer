@@ -70,7 +70,7 @@ namespace WinFormsZOrderViewer
             try
             {
                 // Reflection Aproach - Loads all the requested assemblies -> It's not capable of loading System.Object from the System.Private.CodeLib.dll assembly
-                AppDomain.CurrentDomain.AssemblyResolve += ResolverEnsamblados;
+                AppDomain.CurrentDomain.AssemblyResolve += Resolver;
 
                 // Dinamicly Load Project's Assembly
                 Assembly assembly = Assembly.LoadFrom(Path.Combine(Path.GetDirectoryName(clientProject.FullName), "bin\\Debug\\net8.0-windows\\" + clientProject.Properties.Item("OutputFilename").Value.ToString()));
@@ -103,7 +103,7 @@ namespace WinFormsZOrderViewer
                 MessageBox.Show(ex.Message + ex.StackTrace);
             }
         }
-        private static Assembly ResolverEnsamblados(object sender, ResolveEventArgs args)
+        private static Assembly Resolver(object sender, ResolveEventArgs args)
         {
             string assemblyPathFrameWork = Path.Combine(@"C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.14\", new AssemblyName(args.Name).Name + ".dll");
             string assemblyPathForms = Path.Combine(@"C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\8.0.14\", new AssemblyName(args.Name).Name + ".dll");
@@ -120,7 +120,6 @@ namespace WinFormsZOrderViewer
         }
         static string GetAssemblyName(string filePath)
         {
-            // Find the project root by looking for the .sln file
             string projectRoot = FindProjectRoot(filePath);
 
             if (string.IsNullOrEmpty(projectRoot))
@@ -128,41 +127,29 @@ namespace WinFormsZOrderViewer
                 throw new ArgumentException("Project root not found.");
             }
 
-            // Get the relative path by trimming the project root part of the file path
             var fullPath = Path.GetFullPath(filePath);
             string relativePath = fullPath.Substring(projectRoot.Length + 1);
 
-            // Remove the file extension and replace backslashes with dots
             string assemblyName = relativePath.Replace(Path.DirectorySeparatorChar, '.').Replace(".Designer.cs", "");
 
-            // Assuming the project name is the first folder in the path
             string projectName = Path.GetFileName(projectRoot);
 
-            // Combine project name with relative path to form the assembly name
             return $"{projectName}.{assemblyName}";
         }
 
         static string FindProjectRoot(string filePath)
         {
-            // Start from the current file path and walk up the directory tree
             string currentDir = Path.GetDirectoryName(filePath);
 
             while (currentDir != null)
             {
-                // Check if there is a solution file in the current directory
                 string[] solutionFiles = Directory.GetFiles(currentDir, "*.csproj");
 
                 if (solutionFiles.Length > 0)
-                {
-                    // We found the project root (the directory containing the .sln file)
                     return currentDir;
-                }
 
-                // Move up one level in the directory tree
                 currentDir = Path.GetDirectoryName(currentDir);
             }
-
-            // Return null if no project root is found
             return null;
         }
     }
