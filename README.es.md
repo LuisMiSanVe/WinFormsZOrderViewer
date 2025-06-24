@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> Esta extensión no está terminada, por lo que no debería ser usada aún, esta publicación es meramente para incrementar su alcance. Un hilo en [Stack Overflow](https://stackoverflow.com/questions/79553192/could-not-load-type-system-object-from-assembly-system-private-corelib-beca) y un [Problema de Github](https://github.com/LuisMiSanVe/WinFormsZOrderViewer/issues/1) están abiertos con los problemas que tengo con el desarrollo, ¡apreciaría mucho si pudieras ayudarme!
+
 > [Ver en ingles/See in english](https://github.com/LuisMiSanVe/WinFormsZOrderViewer/blob/main/README.md)
 
 # <img src="https://github.com/LuisMiSanVe/WinFormsZOrderViewer/blob/main/WinFormsZOrderViewer/logo.png" width="50" alt="Logo"> WinForms Z-Order Viewer
