@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> Esta extensión no está terminada, por lo que no debería ser usada aún, esta publicación es meramente para incrementar su alcance. Un hilo en [Stack Overflow](https://stackoverflow.com/questions/79553192/could-not-load-type-system-object-from-assembly-system-private-corelib-beca) y un [Problema de Github](https://github.com/LuisMiSanVe/WinFormsZOrderViewer/issues/1) están abiertos con los problemas que tengo con el desarrollo, ¡apreciaría mucho si pudieras ayudarme!
+> El desarrollo de esta extensión ha sido pausado, un acercamiento mas simple ha sido creado que logra la funcionalidad planeada para la Extension de VS de WinFormsZOrderViewer en un mucho más simple [NuGet](https://github.com/LuisMiSanVe/WinFormsZOrderViewer_NuGet)
 
 > [Ver en ingles/See in english](https://github.com/LuisMiSanVe/WinFormsZOrderViewer/blob/main/README.md)
 
