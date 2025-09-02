@@ -82,6 +82,10 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="Resources\ZOrderToolWindowCommand.png" />
     <VSCTCompile Include="WinFormsZOrderViewerPackage.vsct">
       <ResourceName>Menus.ctmenu</ResourceName>
